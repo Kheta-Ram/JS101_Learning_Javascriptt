@@ -1,0 +1,11 @@
+let details= {
+  name:"ram",
+  father_name:"ramesh",
+mother_name:"chichi",
+add:"jaipur",
+  pin_code:00000,
+  age:26
+}
+for(let a in details){
+  console.log(a+":"+details[a]);
+}
